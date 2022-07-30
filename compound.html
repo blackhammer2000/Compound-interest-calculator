@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Compound Interest Calculator</title>
+    <link rel="stylesheet" href="compound.css" />
+    <script src="compound.js" type="text/javascript" charset="utf-8"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Compound Interest Calculator</h1>
+      </div>
+      <div class="inputs">
+        <div class="amount-input">
+          <input id="amount" type="number" placeholder="Enter amount here" />
+        </div>
+        <div class="duration-input">
+          <input
+            id="duration"
+            type="number"
+            placeholder="Enter duration here"
+          />
+        </div>
+        <div class="rate-input">
+          <input
+            id="rate"
+            type="number"
+            placeholder="Enter interest rate here"
+          />
+        </div>
+        <div class="calculate-button">
+          <button data-calculate-button>Compound</button>
+        </div>
+      </div>
+      <div data-results class="results"></div>
+    </div>
+  </body>
+</html>

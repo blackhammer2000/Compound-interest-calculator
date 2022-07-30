@@ -1,0 +1,105 @@
+body{
+  display: grid;
+  place-items: center;
+  background: black;
+  color: #fff;
+}
+
+input{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid grey;
+  outline: none;
+  transition: border-bottom .4s;
+}
+
+input:focus{
+  border-bottom: 3px solid lawngreen;
+}
+
+.container{
+  display: grid;
+  width: 80%;
+  height: auto;
+}
+
+.header{
+  width: 100%;
+  text-align: center;
+}
+
+.inputs{
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.inputs .amount-input{
+  display: grid;
+  width: 100%;
+  height: auto;
+  padding: .25em;
+}
+
+.amount-input input{
+  padding: 1em;
+  background: black;
+  color: #fff;
+}
+
+.inputs .duration-input{
+  display: grid;
+  width: 100%;
+  height: auto;
+  padding: .25em;
+}
+
+.duration-input input{
+  padding: 1em;
+  background: black;
+  color: #fff;
+}
+
+.inputs .rate-input{
+  display: grid;
+  width: 100%;
+  height: auto;
+  padding: .25em;
+}
+
+.rate-input input{
+  padding: 1em;
+
+  background: black;
+  color: #fff;
+}
+
+
+.inputs .calculate-button{
+  display: grid;
+  width: 80%;
+  height: auto;
+  padding: .25em;
+  margin-top: 1.5em;
+}
+
+.calculate-button button{
+  padding: .75em;
+  background: green;
+  color: white;
+  border: 0;
+}
+
+.calculate-button button:active{
+  background: limegreen;
+}
+
+.results{
+  display: grid;
+  place-items: center;
+  height: auto;
+  width: auto;
+  margin-top: 2em;
+}
